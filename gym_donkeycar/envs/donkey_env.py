@@ -28,7 +28,7 @@ def supply_defaults(conf: Dict[str, Any]) -> None:
     """
     defaults = [
         ("start_delay", 5.0),
-        ("max_cte", 8.0),
+        ("max_cte", 3.0),
         ("frame_skip", 1),
         ("cam_resolution", (120, 160, 3)),
         ("log_level", logging.INFO),
